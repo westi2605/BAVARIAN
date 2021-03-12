@@ -1,0 +1,77 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+classKey,,items,Item,New,class Key,,Klassenschlüssel,,,
+classKeyDesc,,items,Item,New,Used to unlock your starter class you chose.,,Dient zum Freischalten der von Ihnen gewählten Starterklasse,,,
+classSelection,,items,Item,New,class Selection,,Klassenauswahl,,,
+classSelectionDesc,,items,Item,New,Craft this into any of the Class System you desire.,,Fügen Sie dies in ein beliebiges von Ihnen gewünschtes Klassensystem ein.,,,
+
+Class - Hunter (Locked),,blocks,Block,New,Class Hunter (Locked),,Klasse Jäger (Gesperrt),,,
+Class - Hunter (Locked)Desc,,blocks,Block,New,Gifts you the items of a Hunter.,,Du erhälts Gegenstände die ein richtiger Jäger benötigt.,,,
+Class - Hunter,,blocks,Block,New,Class Hunter,,Klasse Jäger,,,
+
+Class - Builder (Locked),,blocks,Block,New,Class Builder (Locked),,Klasse Baumeister (Gesperrt),,,
+Class - Builder (Locked)Desc,,blocks,Block,New,Gifts you the items of a Builder.,,Du erhälts Gegenstände die ein richtiger Baumeister benötigt.,,,
+Class - Builder,,blocks,Block,New,Class Builder,,Klasse Baumeister,,,
+
+Class - Rifleman (Locked),,blocks,Block,New,Class Rifleman (Locked),,Klasse Schüze (Gesperrt),,,
+Class - Rifleman (Locked)Desc,,blocks,Block,New,Gifts you the items of a Rifleman.,,Du erhälts Gegenstände die ein richtiger Schütze braucht,,,
+Class - Rifleman,,blocks,Block,New,Class - Rifleman,,Klasse Schütze,,,
+
+Class - Gunman (Locked),,blocks,Block,New,Class Gunman (Locked),,Klasse Revolverheld (Gesperrt),,,
+Class - Gunman (Locked)Desc,,blocks,Block,New,Gifts you the items of a Gunman.,,Du erhälts Gegenstände die ein richtiger Revolverheld braucht.,,,
+Class - Gunman,,blocks,Block,New,Class Gunman,,Klasse Revolverheld,,,
+
+Class - Veteran (Locked),,blocks,Block,New,Class Veteran (Locked),,Klasse Veteran (Gesperrt),,,
+Class - Veteran (Locked)Desc,,blocks,Block,New,Gifts you the items of a Veteran.,,Du erhälts Gegenstände die ein richtiger Verteran benötigt,,,
+Class - Veteran,,blocks,Block,New,Class Veteran,,Klasse Veteran,,,
+
+Class - Bruiser(Locked),,blocks,Block,New,Class Bruiser (Locked),,Klasse Schläger (Gesperrt),,,
+Class - Bruiser (Locked)Desc,,blocks,Block,New,Gifts you the items of a Bruiser.,,Du erhälts Gegenstände die ein richtiger Schläger benötigt,,,
+Class - Bruiser,,blocks,Block,New,Class Bruiser,,Klasse Schläger,,,
+
+Class - Miner (Locked),,blocks,Block,New,Class Miner (Locked),,Klasse Bergmann (Gesperrt),,,
+Class - Miner (Locked)Desc,,blocks,Block,New,Gifts you the items of a Miner.,,Du erhälts Gegenstände die ein richtiger Bergmann benötigt,,,
+Class - Miner,,blocks,Block,New,Class Miner,,Klasse Bergmann,,,
+
+Class - Survivor (Locked),,blocks,Block,New,Class Survivor (Locked),,Klasse Überlebendungskünstler (Gesperrt),,,
+Class - Survivor (Locked)Desc,,blocks,Block,New,Gifts you the items of a Survivor.,,Du erhälts Gegenstände die ein richtiger Überlebungskünstler benötigt,,,
+Class - Survivor,,blocks,Block,New,Class Survivor,,Klasse Überlebungskünstler,,,
+
+Class - Medic (Locked),,blocks,Block,New,Class Medic (Locked),,Klasse Sanitäter (Gesperrt),,,
+Class - Medic (Locked)Desc,,blocks,Block,New,Gifts you the items of a Medic.,,Du erhälts Gegenstände die ein richtiger Sanitäter benötigt,,,
+Class - Medic,,blocks,Block,New,Class Medic,,Klasse Sanitäter,,,
+
+Class - Mechanic (Locked),,blocks,Block,New,Class Mechanic (Locked),,Klasse Mechaniker (Gesperrt),,,
+Class - Mechanic (Locked)Desc,,blocks,Block,New,Gifts you the items of a Mechanic.,,Du erhälts Gegenstände die ein richtiger Mechaniker benötigt,,,
+Class - Mechanic,,blocks,Block,New,Class Mechanic,,Klasse Mechaniker,,,
+
+Class - Engineer (Locked),,blocks,Block,New,Class Engineer (Locked),,Klasse Ingenieur (Gesperrt),,,
+Class - Engineer (Locked)Desc,,blocks,Block,New,Gifts you the items of a Engineer.,,Du erhälts Gegenstände die ein richtiger Ingenieur benötigt,,,
+Class - Engineer,,blocks,Block,New,Class Engineer,,Klasse Ingenieur,,,
+
+Class - Farmer (Locked),,blocks,Block,New,Class Farmer (Locked),,Klasse Bauer (Gesperrt),,,
+Class - Farmer (Locked)Desc,,blocks,Block,New,Gifts you the items of a Farmer.,,Du erhälts Gegenstände die ein richtiger Bauer benöitigt,,,
+Class - Farmer,,blocks,Block,New,Class Farmer,,Klasse Bauer,,,
+
+Class - Terrorist (Locked),,blocks,Block,New,Class Terrorist (Locked),,Klasse Terrorist (Gesperrt),,,
+Class - Terrorist (Locked)Desc,,blocks,Block,New,Gifts you the items of a Terrorist.,,Du erhälts Gegenstände die ein richtiger Terrorist benötigt,,,
+Class - Terrorist,,blocks,Block,New,Class Terrorist,,Klasse Terrorist,,,
+
+Class - Machine Gunner (Locked),,blocks,Block,New,Class Machine Gunner (Locked),,Klasse Scharfschütze (Gesperrt),,,
+Class - Machine Gunner (Locked)Desc,,blocks,Block,New,Gifts you the items of a Machine Gunner.,,Du erhälts Gegenstände die ein richtiger Scharfschütze braucht,,,
+Class - Machine Gunner,,blocks,Block,New,Class Machine Gunner,,Klasse Scharfschütze,,,
+
+Class - Marine (Locked),,blocks,Block,New,Class Marine (Locked),,Klasse Elite-Soldat (Gesperrt),,,
+Class - Marine (Locked)Desc,,blocks,Block,New,Gifts you the items of a Marine.,,Du erhälts Gegenstände die ein richtiger Elite-Soldat benötigt,,,
+Class - Marine,,blocks,Block,New,Class Marine,,Klasse Elite-Soldat,,,
+
+Class - Assassin (Locked),,blocks,Block,New,Class Assassin (Locked),,Klasse Attentäter (Gesperrt),,,
+Class - Assassin (Locked)Desc,,blocks,Block,New,Gifts you the items of a Assassin.,,Du erhälts Gegenstände die ein richtiger Attentäter benötigt,,,
+Class - Assassin,,blocks,Block,New,Class Assassin,,Klasse Attentäter,,,
+
+requirementGroupBow,,Requirement Group,,Holding Bow,,Bogen,,
+requirementGroupCrossbow,,Requirement Group,,Holding Crossbow,,,,
+requirementGroupBowCrossbow,,Requirement Group,,Holding Bow or Crossbow,,,,
+requirementGroupBruiser,,Requirement Group,,Holding Club,,,,
+requirementGroupHandgun,,Requirement Group,,Holding Pistol or Magnum,,,,
+requirementGroupRifle,,Requirement Group,,Holding Bolt Rifle or Hunting Rifle,,,,
+requirementGroupAssault,,Requirement Group,,Holding SMG or Assault Rifle,,,,

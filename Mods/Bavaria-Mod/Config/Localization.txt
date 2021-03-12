@@ -1,0 +1,12 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,
+fusebox1,blocks,Block,,,Fusebox,,Elektroblock,
+fusebox2,blocks,Block,,,Fusebox,,funktionfähigen Sicherungskasten,
+
+foodBoSchweinebraten,items,Food,,,"Roast pork",,"Schweinebraten",
+foodBoSchweinebratenDesc,items,Food,,,"A delicious Bavarian roast pork with bread dumplings and red cabbage, mhhhhh... Such a pleasure",,"Ein leckerer bayrischer Schweinbbraten mit Semelknödel und Rotkraut, mhhhhh... So ein Genuß"
+foodBoSchweinebratenSchematic,items,Food,,,"Roast pork Schematic",,"Rezept Schweinebraten"
+foodBoSchweinebratenSchematicDesc,items,Food,,,"A recipe for a tasty Bavarian roast pork. Let's see how it's prepared.",,"Ein Rezept für einene leckeren bayrischen Schweinebraten. Mal sehen wie die Zubereitung ist."
+
+solarbankSchematic,blocks,Electricity,,,Solar Bank Recipe,,Bauplan Solarbank,,,
+solarCellSchematic,items,Part,,,Solar Cell Recipe,,Bauplan Solarzellen,,,
+smallEngineSchematic,items,Part,,,Engine Recipe,,Bauplan Motor,,,

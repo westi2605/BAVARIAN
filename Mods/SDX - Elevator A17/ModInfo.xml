@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="SDX - Elevator A17" />
+    <Description value="Unlimited number of floors. You can restrict the number of floors in xml if you want.&#xA;&#x9;&#x9;Choose a floor number to travel to using the numpad. 999 will take you straight to the control floor without knowing its number, no power is reqired if its inside your landclaim.&#xA;&#x9;&#x9;If you press R while the select floor text is showing you get the floor count at the bottom of the screen.&#xA;&#x9;&#x9;Floor numbers are assigned from the bottom up.&#xA;&#x9;&#x9;Target floor will be displayed in activation text, press e to travel to that floor.&#xA;&#x9;&#x9;Control floor requires power. This can be disabled in the xml&#xA;&#x9;&#x9;Other floors dont require power unless you enable it in xml, then it will need power to use the call buttons.&#xA;&#x9;&#x9;Floors can be placed both above and bellow the control floor.&#xA;&#x9;&#x9;Floors can be added or removed at any time and can be placed before or after the control floor is placed. Floor numbers will automaticly adjust when a floor is added or removed.&#xA;&#x9;&#x9;Control floors are limited to one per position, if one is alrealy in that positions elevator you wont be able to place one until the other is removed.&#xA;&#x9;&#x9;Elevator will move up or down to the next floor when the floor it's at or heading for is removed.&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;-- Update 0.2.2 Notes --&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;-- Added Easy Setup Of Custom Models --&#xA;&#x9;&#x9;&#x9;Custom models are now easy to add, just set your transform names in the xml&#xA;&#x9;&#x9;&#x9;Elevator doors and shaft doors dont require animations, just set the offset in xml to the direction and amount you want them to move.&#xA;&#x9;&#x9;&#x9;atm you need elevator doors for shaft doors to work, if this causes a issue in your custom model let me know and I'll see if I can change it.&#xA;&#x9;&#x9;&#x9;Put a trigger on the part the player stands on, this will be needed when I get vehicles working with it.&#xA;&#x9;&#x9;&#x9;If you dont define a transform in xml for the call buttons on normal floors the whole model will be the call button.&#xA;&#x9;&#x9;&#x9;You MUST define a call button and an inside button transform in xml for the control floor or the elevator wont work.&#xA;&#x9;&#x9;&#x9;Set the &quot;ShowRaycastHitName&quot; property to true if your having trouble with your hotspot names, it will show what the ray cast is hitting in the console so you can adjust your model or xml as needed. Be sure to turn it off!&#xA;&#x9;&#x9;&#x9;&#xA;&#x9;&#x9;&#x9;See these 2 blocks in xml for the full list of options &quot;ElevatorControlFloor&quot; &quot;ElevatorFloor&quot;" />
+    <Author value="308" />
+    <Version value="v0.2.2" />
+    <Website value="" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>

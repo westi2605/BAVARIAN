@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="The TFP Raft" />
+		<Description value="Adds the TFP Raft into the game because we had too" />
+		<Author value="DUST2DEATH,Ragsy2145" />
+		<Version value="19.0.1.0" compat="A19e"/>
+		<Website value="https://community.7daystodie.com/topic/14070-community-watercraft-projects/" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,20 @@
+﻿Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+speaker1,items,Ammo,New,Speaker,,,,,
+Harryspeaker1,items,Ammo,New,Tornado Siren,,,,,
+Harryspeaker2,items,Ammo,New,Door Alarm,,,,,
+Harryspeaker3,items,Ammo,New,Command Alarm,,,,,
+Harryspeaker4,items,Ammo,New,Fire Alarm,,,,,
+Harryspeaker5,items,Ammo,New,Breach Alarm,,,,,
+Harryspeaker6,items,Ammo,New,Bunker Alarm 1,,,,,
+Harryspeaker7,items,Ammo,New,Bunker Door Alarm,,,,,
+Harryspeaker8,items,Ammo,New,Bunker Fire Alarm,,,,,
+Harryspeaker9,items,Ammo,New,Bunker Alarm 2,,,,,
+Harryspeaker10,items,Ammo,New,Bunker Alarm 3,,,,,
+
+Harryspeaker11,items,Ammo,New,Money For Nothing,,,,,
+Harryspeaker12,items,Ammo,New,Shepherd Of Fire,,,,,
+Harryspeaker13,items,Ammo,New,This Means War,,,,,
+
+speaker,items,Ammo,New,Speaker Master,,,,,
+

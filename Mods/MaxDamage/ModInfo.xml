@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="MaxDamageAnpassung" />
+        <Description value="Diese Mod wird genutzt um die Haltbarkeit von Bloecken zu erhoehen" />
+        <Author value="Sechsterversuch" />
+        <Version value="1.0.0" />
+    </ModInfo>
+</xml>

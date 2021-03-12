@@ -1,0 +1,67 @@
+Key,Source,Context,Changes,English,German
+
+h7sb_lights_tip_title,desc,main,new,[FFD700]H7SB Lights[-] Mod,[FFD700]H7SB Lights[-] Mod
+h7sb_lights_tip,desc,main,new,"The How 7Days Should Be [FFD700]Lights Mod[-] adds an progression based lighting system. Light sources from [FFD700]fires burn slowly down[-] and can be [FFD700]ignited again[-]. In addition, the Mod includes [FFD700]all electric lamps[-] available in Vanilla. In its basic version, the mod is [FFD700]100% vanilla-friendly[-] - thanks to the separate mod in the folder, improved textures can be unlocked. \n\nNew lighting system \nLight sources do not burn indefinitely \nTo ignite you need flint / lighter \nTorches can be lit directly from sources of fire \n\nTorch / flint / short burning time (disappears) \nCandle / animal fat / medium burning time \nPumpkin lantern / animal fat / medium burning time (disappears) \nFire bowl / coal / long burning time \nStorm lantern / gasoline / long burning time \n\n22 electric lamps that can be produced! \n(No flashlight because it breaks the progress curve) \n\nThe pumpkin lantern is not available.[-] \n\nThe mod was created by Eihwaz with the support of Telric. \n[FFD700]www.eihwaz.de[-]","Die How 7Days Should Be [FFD700]Lights Mod[-] fügt ein fortschritts basiertes Licht-System hinzu. Lichtquellen aus [FFD700]Feuer brennen[-] langsam [FFD700]aus[-] und können [FFD700]neu entzündet[-] werden. Außerdem beinhaltet die Mod [FFD700]alle[-] in Vanilla verfügbaren [FFD700]elektrischen Lampen[-]. In seiner Grundausführung ist die Mod [FFD700]100% vanillafreundlich[-] - durch die seperate Zusatz Mod im Ordner können verbesserte Texturen freigeschaltet werden. \n\nNeues Licht-System \nLichquellen brennen nicht unendlich \nZum entzünden benötigt man Feuersteine/Feuerzeug \nFackeln können direkt an Feuerquellen entzündet werden \n\nFackel / Feuerstein / kurze Brenndauer (verschwindet) \nKerze / Tierfett / mittlere Brenndauer \nKürbislaterne / Tierfett / mittlere Brenndauer (verschwindet) \nFeuerschale / Kohle / lange Brenndauer \nSturmlaterne / Benzin / lange Brenndauer \n\n22 herstellbare elektrische Lampen \n(Keine Taschenlampe, weil es die Fortschrittskurve kaputt macht) \n\nDie Kürbislaterne ist nicht verfügbar.[-] \n\nDie Mod wurde von Eihwaz mit Unterstützung von Telric erstellt. \n[FFD700]www.eihwaz.de[-]"
+h7sb_lights_edit,description,main,new,This block was changed by [FFD700]H7SB Lights[-] Mod. Use the ignitable variant in the game!,Dieser Block wurde verändert durch die [FFD700]H7SB Lights[-] Mod. Verwende im Spiel die entzündbare Variante!
+
+flint,items,light,new,Flint,Feuerstein
+flintDesc,description,light,new,The flint is used to ignite flammable objects. \n\nCandles require additional animal fat. \nLanterns require additional animal fat. \nFire bowls require additional coal.,Der Feuerstein wird verwendet um entzündbare Gegenstände zu entflammen. \n\nKerzen benötigen zusätzlich Tierfett.\nLaternen benötigen zusätzlich Tierfett. \nFeuerschalen benötigen zusätzlich Kohle.
+flintSteel,items,light,new,Lighter,Feuerzeug
+flintSteelDesc,description,light,new,The lighter is used to quickly ignite flammable objects. \n\nCandles require additional animal fat. \nLanterns require additional animal fat. \nFire bowls require additional coal. \nStorm lantern require additional fuel.,Das Feuerzeug wird verwendet um schnell entzündbare Gegenstände zu entflammen. \n\nKerzen benötigen zusätzlich Tierfett.\nLaternen benötigen zusätzlich Tierfett. \nFeuerschalen benötigen zusätzlich Kohle. \nSturmlaternen benötigen zusätzlich Benzin.
+meleeToolTorch,items,light,rework,Torch,Fackel
+meleeToolTorchLitUp,items,light,new,Torch,Fackel
+torchWallHolder,blocks,light,rework,Torch (burned out),Fackel (ausgebrannt)
+torchFlammable,blocks,light,new,Torch,Fackel
+wallTorchLight,blocks,light,rework,Torch POI (burning),Fackel POI (brennend)
+wallTorchLightPlayer,blocks,light,rework,Torch (burning),Fackel (brennend)
+wallTorchLightPlayerPlaced,blocks,light,new,Torch (burning),Fackel (brennend)
+torchFlammableDesc,description,light,new,This item can be ignited with a flint or lighter and by burning fire.,Dieser Gegenstand kann entzündet werden mit einem Feuerstein oder Feuerzeug und durch brennende Feuer.
+torchLitUpDesc,description,light,rework,This item gives you light and can set enemies on fire. \n\nAfter placing you have a short moment to pick it up again before it burns slowly.,Dieser Gegenstand spendet dir Licht und kann Gegner in Brand setzen. \n\nNach dem platzieren hast du einen kurzen Moment um ihn wieder aufzuheben bevor er langsam verbrennt.
+candleWallLight,blocks,light,rework,Candle (burned out),Kerze (ausgebrannt)
+candleTableLight,blocks,light,rework,Candle (burned out),Kerze (ausgebrannt)
+candleFlammable,blocks,light,new,Candle,Kerze
+candleWallFlammable,blocks,light,new,Candle,Kerze
+candleWallLightPlayer,blocks,light,rework,Candle (burning),Kerze (brennend)
+candleTableLightPlayer,blocks,light,rework,Candle (burning),Kerze (brennend)
+candleFlammableDesc,description,light,new,This block can be ignited with a flint or lighter and animal fat.,Dieser Block kann entzündet werden mit einem Feuerstein oder Feuerzeug und Tierfett.
+decoPumpkinJackOLantern,blocks,light,rework,Pumpkin Lantern (burned out),Kürbislaterne (ausgebrannt)
+FlammablePumpkinJackOLantern,blocks,light,new,Pumpkin Lantern,Kürbislaterne
+litUpPumpkinJackOLantern,blocks,light,new,Pumpkin Lantern (burning),Kürbislaterne (brennend)
+litUpPumpkinJackOLanternItem,items,light,new,Pumpkin Lantern (burning),Kürbislaterne (brennend)
+litUpPumpkinJackOLanternItemDesc,items,light,new,Right click: Place the pumpkin lantern.,Rechtsklick: Kürbislaterne platzieren.
+litUpPumpkinJackOLanternPlaced,blocks,light,new,Pumpkin Lantern (burning),Kürbislaterne (brennend)
+lanternFlammableDesc,description,light,new,This block can be ignited with a flint or lighter and animal fat. \n\nAfter igniting you have a short moment to pick up or to extinguish it again before it burns slowly.,Dieser Block kann entzündet werden mit einem Feuerstein oder Feuerzeug und Tierfett. \n\nNach dem entzünden hast du einen kurzen Moment um ihn aufzuheben oder wieder zu löschen bevor er langsam verbrennt.
+burningBarrel,blocks,light,rework,Fire Bowl (burned out),Feuerschale (ausgebrannt)
+FlammableBarrel,blocks,light,new,Fire Bowl,Feuerschale
+burningBarrelPlayer,blocks,light,rework,Fire Bowl (burning),Feuerschale (brennend)
+barrelFlammableDesc,description,light,new,This block can be ignited with a flint or lighter and coal.,Dieser Block kann entzündet werden mit einem Feuerstein oder Feuerzeug und Kohle.
+lanternDecorLight,blocks,light,new,Storm Lantern (broken),Sturmlaterne (defekt)
+FlameableLantern,blocks,light,new,Storm Lantern,Sturmlaterne
+lanternLight_player,blocks,light,new,Storm Lantern (burning),Sturmlaterne (brennend)
+lanternFlammableDesc,description,light,new,This block can be ignited with a flint or lighter and fuel.,Dieser Block kann entzündet werden mit einem Feuerstein oder Feuerzeug und Benzin.
+
+h7sb_lightsVariantHelper,blocks,light,new,Electric Lighting,Elektrische Beleuchtung
+h7sb_lights_electric,description,light,new,This block can be connected to a power source to light up.,Dieser Block kann mit einer Stromquelle verbunden werden um zu leuchten.
+h7sb_lights_helper,description,light,new,This helper block contains all 1-block lights. Its selection can be opened by a long press on the R key.,Dieser Helfer Block beinhaltet alle 1-Block-Lichter. Seine Auswahl kann durch langes drücken der R Taste geöffnet werden.
+h7sb_lights,blocks,light,new,Light Bulb,Glühbirne
+h7sb_lights2,blocks,light,new,Industrial Light Bulb,Industrielle Glühbirne
+h7sb_lights3,blocks,light,new,Industrial Light Bulb (red),Industrielle Glühbirne (rot)
+h7sb_lights4,blocks,light,new,Desk Lamp,Schreibtischlampe
+h7sb_lights5,blocks,light,new,Table Lamp,Tischlampe
+h7sb_lights6,blocks,light,new,Fluorescent Tube,Leuchtröhre
+h7sb_lights7,blocks,light,new,Industrial Fluorescent Tube,Industrielle Leuchtröhre
+h7sb_lights8,blocks,light,new,Wall Lamp (outdoor),Wandlampe (außen)
+h7sb_lights9,blocks,light,new,Wall Lamp (half),Wandlampe (halb)
+h7sb_lights10,blocks,light,new,Round Ceiling Lamp (silver),Runde Deckenlampe (silber)
+h7sb_lights11,blocks,light,new,Round Ceiling Lamp (gold),Runde Deckenlampe (gold)
+h7sb_lights12,blocks,light,new,Ceiling Lamp,Deckenlampe
+h7sb_lights13,blocks,light,new,Ceiling Lamp (silver),Deckenlampe (silber)
+h7sb_lights14,blocks,light,new,Shop Sign (open),Ladenschild (geöffnet)
+h7sb_lights15,blocks,light,new,Shop sign (exit),Ladenschild (ausgang)
+h7sb_lightsTable,blocks,light,new,Bedside Table,Nachttisch
+h7sb_lightsFan,blocks,light,new,Fan,Ventilator
+h7sb_lightsWorkside,blocks,light,new,Construction Site Light,Baustellenlicht
+h7sb_lightsHall,blocks,light,new,Ceiling Spotlights,Deckenstrahler
+h7sb_lightsHallIndustrial,blocks,light,new,Hall Light,Flurlicht
+h7sb_lightsStreet,blocks,light,new,Street Light,Straßenlicht
+h7sb_lightsStreetClassic,blocks,light,new,Street Lamp,Straßenlaterne

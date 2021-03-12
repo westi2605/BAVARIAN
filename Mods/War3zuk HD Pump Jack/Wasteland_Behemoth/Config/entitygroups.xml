@@ -1,0 +1,60 @@
+<configs>
+
+	<append xpath="/entitygroups">
+	
+		<!-- Based on "ZombiesAll" as per current wasteland day setting - Gives more variety with recent additions -->
+	
+		<entitygroup name="ZombiesWastelandDayBehemoth">
+		<entity name="zombieBehemoth"/>
+		<entity name="zombieBoe"/>
+		<entity name="zombieJoe"/>
+		<entity name="zombieSteve"/>
+		<entity name="zombieMoe"/>
+		<entity name="zombieYo"/>
+		<entity name="zombieBusinessMan"/>
+		<entity name="zombieArlene"/>
+		<entity name="zombieDarlene"/>
+		<entity name="zombieMarlene"/>
+		<entity name="zombieSkateboarder"/>
+		<entity name="zombieCheerleader" prob="0.3"/>
+		<entity name="zombieOldTimer" prob="0.3"/>
+		<entity name="zombieBiker" prob="0.3"/>
+		<entity name="zombieFarmer" prob="0.3"/>
+		<entity name="zombieStripper" prob="0.3"/>
+		<entity name="zombieUtilityWorker" prob="0.3"/>
+		<entity name="zombieJanitor" prob="0.2"/>
+		<entity name="zombieNurse" prob="0.3"/>
+		<entity name="zombieSteveCrawler"/>
+		<entity name="zombieFatHawaiian" prob="0.3"/>
+		</entitygroup>
+		
+		<!-- Based on "ZombiesWastelandNight" as per current wasteland night setting -->
+		
+		<entitygroup name="ZombiesWastelandNightBehemoth">
+		<entity name="zombieBehemoth"/>
+		<entity name="zombieSpiderFeral"/>
+		<entity name="zombieBoeFeral"/>
+		<entity name="zombieJoeFeral"/>
+		<entity name="zombieSteveFeral"/>
+		<entity name="zombieMoeFeral"/>
+		<entity name="zombieYoFeral"/>
+		<entity name="zombieBusinessManFeral"/>
+		<entity name="zombieArleneFeral"/>
+		<entity name="zombieDarleneFeral"/>
+		<entity name="zombieMarleneFeral"/>
+		<entity name="zombieNurseFeral"/>
+		<entity name="animalZombieDog"/>
+		<entity name="zombieSteveCrawlerFeral"/>
+		<entity name="zombieFatCopFeral"/>
+		<entity name="zombieBurnt"/>
+		<entity name="animalZombieBear"/>
+		<entity name="zombieWightFeral"/>
+		<entity name="animalZombieVulture" prob="0.6"/>
+		<entity name="animalZombieVultureRadiated"  prob="0.4"/>
+		<entity name="zombieMaleHazmat" prob="0.2"/>
+		<entity name="zombieFatHawaiian"/>
+		</entitygroup>
+		
+	 </append>
+	 
+</configs>

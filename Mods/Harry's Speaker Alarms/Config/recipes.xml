@@ -1,0 +1,65 @@
+<Harrys_Speaker_Alarms>
+<append xpath="recipes">
+
+
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="speaker1" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker1" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker2" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker3" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker4" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker5" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker6" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker7" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker8" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker9" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker10" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker11" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker12" count="1"/>
+</recipe>
+
+<recipe name="speaker" count="1" craft_time="1">
+	<ingredient name="Harryspeaker13" count="1"/>
+</recipe>
+
+
+
+</append>  
+</Harrys_Speaker_Alarms>

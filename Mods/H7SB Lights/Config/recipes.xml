@@ -1,0 +1,117 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Lights ######
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<config>
+<!-- Fire Lights -->
+<remove xpath="/recipes/recipe[@name='meleeToolTorch']"/>
+<remove xpath="/recipes/recipe[@name='candle']"/>
+<remove xpath="/recipes/recipe[@name='candleTableLightPlayer']"/>
+<remove xpath="/recipes/recipe[@name='decoPumpkinJackOLantern']"/>
+<remove xpath="/recipes/recipe[@name='burningBarrelPlayer']"/>
+<remove xpath="/recipes/recipe[@name='lanternLight_player']"/>
+<remove xpath="/recipes/recipe[@name='campfire']"/>
+<remove xpath="/recipes/recipe[@name='chemistryStation']"/>
+
+<append xpath="/recipes">
+<recipe name="flint" count="1" craft_time="24">
+	<ingredient name="resourceRockSmall" count="2"/>
+</recipe>
+<recipe name="flintSteel" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="flint" count="1"/>
+	<ingredient name="resourceForgedSteel" count="1"/>
+</recipe>
+<recipe name="meleeToolTorch" count="1" craft_time="12">
+	<ingredient name="resourceAnimalFat" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="candleFlammable" count="1" craft_time="15">
+	<ingredient name="resourceYuccaFibers" count="1"/>
+	<ingredient name="resourceAnimalFat" count="8"/>
+</recipe>
+<recipe name="FlammableBarrel" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceCoal" count="48"/>
+</recipe>
+<recipe name="lanternLight_player" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="12"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="ammoGasCan" count="32"/>
+</recipe>
+<recipe name="campfire" count="1">
+	<ingredient name="resourceRockSmall" count="8"/>
+	<ingredient name="resourceWood" count="5"/>
+</recipe>
+<recipe name="chemistryStation" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="toolBeaker" count="1"/>
+	<ingredient name="FlammableBarrel" count="1"/>
+	<ingredient name="toolCookingPot" count="3"/>
+	<ingredient name="resourceMetalPipe" count="15"/>
+	<ingredient name="resourceCoal" count="24"/>
+</recipe>
+</append>
+
+<!-- Electric Lights -->
+<remove xpath="/recipes/recipe[@name='ceilingLight01_player']"/>
+<remove xpath="/recipes/recipe[@name='industrialLight01_player']"/>
+<remove xpath="/recipes/recipe[@name='industrialLight02_player']"/>
+<remove xpath="/recipes/recipe[@name='lanternLight_player']"/>
+<append xpath="/recipes">
+	<recipe name="h7sb_lightsVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+		<ingredient name="resourceForgedIron" count="2"/>
+		<ingredient name="resourceElectricParts" count="4"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".5,.5,.5,.3,.15" tags="resourceForgedIron,resourceElectricParts"/>
+	</effect_group>
+</recipe>
+
+<recipe name="h7sb_lightsTable" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="cntWoodFurnitureBlockVariantHelper" count="1"/>
+	<ingredient name="h7sb_lightsVariantHelper" count="1"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+
+<recipe name="h7sb_lightsFan" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="cntWoodFurnitureBlockVariantHelper" count="1"/>
+	<ingredient name="h7sb_lightsVariantHelper" count="1"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+
+<recipe name="h7sb_lightsWorkside" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="24"/>
+	<ingredient name="h7sb_lightsVariantHelper" count="1"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+
+<recipe name="h7sb_lightsHall" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="24"/>
+	<ingredient name="h7sb_lightsVariantHelper" count="3"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+</recipe>
+
+<recipe name="h7sb_lightsHallIndustrial" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="24"/>
+	<ingredient name="h7sb_lightsVariantHelper" count="3"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+</recipe>
+
+<recipe name="h7sb_lightsStreet" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="120"/>
+	<ingredient name="h7sb_lightsVariantHelper" count="3"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+</recipe>
+
+<recipe name="h7sb_lightsStreetClassic" count="1" craft_time="90" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="120"/>
+	<ingredient name="h7sb_lightsVariantHelper" count="3"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+</recipe>
+</append>
+</config>

@@ -1,0 +1,27 @@
+<configs>
+
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
+	
+<lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+	<item name="resourceIronFragment" count="10,100" prob="0.1"/>
+	<item name="resourceScrapBrass" count="10,100" prob="0.1"/>
+	<item name="resourceScrapLead" count="10,100" prob="0.1"/>	
+	<item name="resourceCoal" count="10,100" prob="0.1"/>
+	<item name="resourceRockSmall" count="300,1000" prob="0.5"/>
+	<item name="resourceClayLump" count="10,100" prob="0.5"/>
+	<item name="resourcePotassiumNitratePowder" count="10,100" prob="0.1"/>	
+	<item name="resourceOilShale" count="10,100" prob="0.1"/>
+	<item name="resourceRockSmallBundle" count="1" prob="0.030"/>
+	<item name="resourceIronFragmentBundle" count="1" prob="0.005"/>
+	<item name="resourcePotassiumNitratePowderBundle" count="1" prob="0.010"/>
+	<item name="resourceLeadBundle" count="1" prob="0.005"/>
+	<item name="resourceCoalBundle" count="1" prob="0.005"/>
+	<item name="resourceOilShaleBundle" count="1" prob="0.005"/>
+	<item name="resourceSilverNugget" count="2,6" prob="0.005"/>
+	<item name="resourceGoldNugget" count="2,6" prob="0.005"/>
+	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
+</lootcontainer>
+
+</insertAfter>
+
+</configs>

@@ -1,0 +1,13 @@
+<configs>
+
+	<set xpath="/spawning">
+
+	<biome name="wasteland">
+		<spawn maxcount="1" respawndelay="0.3" time="Day"	entitygroup="ZombiesWastelandDayBehemoth" />
+		<spawn maxcount="3" respawndelay="0" time="Night" entitygroup="ZombiesWastelandNightBehemoth" />
+		<spawn maxcount="1" respawndelay="0.3" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
+	</biome>
+
+	</set>
+	
+</configs>

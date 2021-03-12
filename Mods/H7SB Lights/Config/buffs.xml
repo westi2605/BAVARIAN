@@ -1,0 +1,28 @@
+<!-- - - - - - - - - - - -
+#########################
+###### H7SB Lights ######
+### 7 Days to Die Mod ###
+#########################
+######## Eihwaz #########
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<config>
+<append xpath="/buffs">
+<!-- Visual Effect Flint -->
+<buff name="flintVisual" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="0.02"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_candleWall_flame" local_offset="-0.05,0.42,-0.05" parent_transform="RightHand"/>
+		<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="p_candleWall_flame"/>
+	</effect_group>
+</buff>
+
+<!-- Delay Fix -->
+<buff name="delayFix_lights" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="0.99"/>
+</buff>
+</append>
+</config>

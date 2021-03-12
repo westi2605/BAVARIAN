@@ -1,0 +1,108 @@
+
+<bavaria>
+
+<!--stacknummer erhöhen -->
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">600</set>
+	<set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">600</set>
+	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">500</set>
+	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']/@value">600</set>
+	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='Stacknumber']/@value">600</set>
+	<set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='Stacknumber']/@value">600</set>	
+
+<!--Mod slot erhöhen -->
+    <set xpath="/items/item//passive_effect[@name='ModSlots']/@value">1,2,3,4,5,6</set>
+    <set xpath="/items/item//passive_effect[@name='ModSlots']/@tier">1,2,3,4,5,6</set>	
+
+	<!-- Add UnlockBy Info to Solor Cells -->
+	<insertAfter xpath="/items/item[@name='solarCell']/property[@name='Material']">
+		<property name="UnlockedBy" value="perkAdvancedEngineering,solarCellSchematic"/>
+	</insertAfter>
+
+	<!-- Add UnlockBy Info to Engines -->
+	<insertAfter xpath="/items/item[@name='smallEngine']/property[@name='Material']">
+		<property name="UnlockedBy" value="perkGreaseMonkey,smallEngineSchematic"/>
+	</insertAfter>
+	
+<!-- FOOD -->
+
+	<append xpath="/items">
+	
+		<item name="foodBoSchweinebraten">
+			<property name="Tags" value="food"/>
+			<property name="HoldType" value="31"/>
+			<property name="DisplayType" value="food"/>
+			<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mplants"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="70"/>
+			<property name="EconomicBundleSize" value="5"/>
+			<property name="CraftingIngredientTime" value="10"/>
+			<property name="UnlockedBy" value="foodBoSchweinebratenSchematic"/>
+			<property name="CustomIcon" value="schweinebraten"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="Sound_start" value="player_eating"/>
+			</property>
+			<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+			<property name="DescriptionKey" value="foodBoSchweinebratenDesc"/>
+			<effect_group tiered="false" name="Food Tier 2">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+			</effect_group>
+		</item>	
+		
+<!-- #############*************************** Schematics - Bauplaene ***************************############# -->
+
+		<item name="foodBoSchweinebratenSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="EconomicValue" value="600"/>
+			<property name="DescriptionKey" value="foodBoSchweinebratenSchematicDesc"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="schweinebraten"/>
+			<property name="Unlocks" value="foodBoSchweinebraten"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodBoSchweinebraten" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+		<item name="solarbankSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Unlocks" value="solarbank"/>
+			<property name="CustomIcon" value="solarbank"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarbank" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+		<item name="solarCellSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Unlocks" value="solarCell"/>
+			<property name="CustomIcon" value="solarCell"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarCell" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+		<item name="smallEngineSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Unlocks" value="smallEngine"/>
+			<property name="CustomIcon" value="smallEngine"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="smallEngine" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+	</append>		
+</bavaria>

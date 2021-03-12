@@ -1,0 +1,139 @@
+<bavaria>
+
+<!-- #############*************************** Zugbrücke alle Richtungen drehbar ***************************############# -->
+
+  	<set xpath="/blocks/block[starts-with(@name, 'garageDoor')]/property[@name='OnlySimpleRotations']/@value">false</set>
+	<set xpath="/blocks/block[starts-with(@name, 'metalReinforcedWoodDrawBridge')]/property[@name='OnlySimpleRotations']/@value">false</set>
+  
+<!-- #############*************************** Brennendes Fass ***************************############# -->
+
+	<append xpath="/blocks/block[@name='burningBarrelPlayer']">
+		<property name="BuffsWhenWalkedOn" value="buffBurningElement"/>
+	</append>
+	<append xpath="/blocks/block[@name='burningBarrel']">
+		<property name="CanPickup" value="true" param1="burningBarrelPlayer"/>
+	</append>
+		
+<!-- #############*************************** aufhebbare Blöcke ***************************############# -->
+
+	<append xpath="/blocks/block[@name='scrapIronLogSpike4']">
+		<property name="CanPickup" value="true" param1="scrapIronLogSpike4"/>
+	</append>
+	<append xpath="/blocks/block[@name='woodLogSpike1']">
+		<property name="CanPickup" value="true" param1="woodLogSpike1"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesWoodDmg0']">
+		<property name="CanPickup" value="true" param1="trapSpikesWoodDmg0"/>
+	</append>
+ 	<append xpath="/blocks/block[@name='trapSpikesWoodDmg1']">
+		<property name="CanPickup" value="true" param1="trapSpikesWoodDmg1"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesWoodDmg2']">
+		<property name="CanPickup" value="true" param1="trapSpikesWoodDmg2"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesIronDmg0']">
+		<property name="CanPickup" value="true" param1="trapSpikesIronDmg0"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesIronDmg1']">
+		<property name="CanPickup" value="true" param1="trapSpikesIronDmg1"/>
+	</append>
+	<append xpath="/blocks/block[@name='trapSpikesIronDmg1']">
+		<property name="CanPickup" value="true" param1="trapSpikesIronDmg1"/>
+	</append>
+	<append xpath="/blocks/block[@name='barbedFence']">
+		<property name="CanPickup" value="true" param1="barbedFence"/>
+	</append>
+	<append xpath="/blocks/block[@name='barbedWireSheet']">
+		<property name="CanPickup" value="true" param1="barbedWireSheet"/>
+	</append>
+	
+<!-- #############*************************** elektroinstallation,wireless ***************************############# -->
+
+	<append xpath="/blocks">
+		<block name="fusebox1">
+			<property name="Class" value="ElectricWire"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CustomIcon" value="bridgeMetalRivetBlock"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Stacknumber" value="30"/>
+			<property name="Shape" value="New"/>
+			<property name="Texture" value="46"/>
+			<property name="Model" value="cube"/>
+			<property name="ModelOffset" value="0,0.5,0"/>
+			<property name="RequiredPower" value="0"/>
+			<property name="Group" value="Building"/>
+			<property name="DamageReceived" value="0.5"/>
+			<property name="FilterTags" value="fdecor,fother,felectrical"/>
+			<property name="SortOrder1" value="70e0"/>
+			<property class="RepairItems">
+			  <property name="resourceScrapIron" value="8"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="4,8" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="4,8" prob="1"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		</block>
+
+		<block name="fusebox2">
+			<property name="Class" value="ElectricWire"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CustomIcon" value="fusebox"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ModelOffset" value="0,-0.2,0"/>
+			<property name="Stacknumber" value="30"/>
+			
+			<property name="Shape" value="Ext3dModel"/>
+			<property name="Texture" value="293"/>
+			<property name="Model" value="Industrial/fusebox" param1="main_mesh"/>
+			<property name="HandleFace" value="South"/>
+			<property name="Mesh" value="models"/>
+			<property name="RequiredPower" value="0"/>
+			<property name="Group" value="Building"/>
+			<property name="DamageReceived" value="0.5"/>
+			<property name="FilterTags" value="fdecor,fother,felectrical"/>
+			<property name="SortOrder1" value="70e0"/>
+			<property class="RepairItems">
+			  <property name="resourceScrapIron" value="8"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="4,8" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="4,8" prob="1"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		</block>
+	</append>
+
+<!-- #############*************************** Solarbank ***************************############# -->
+
+	<!-- Solarbanken hinzufügen -->
+	<insertAfter xpath="/blocks/block[@name='solarbank']/property[@name='DescriptionKey']">
+		<property name="UnlockedBy" value="perkAdvancedEngineering,solarbankSchematic"/>
+	</insertAfter>
+
+	<!-- change the max fuel capacity from 1k to 10k on the generator bank. -->
+	<set xpath="/blocks/block[@name='generatorbank']/property[@name='MaxFuel']/@value">10000</set> 
+	<!-- change the power output for small engines to 200. For some reason the game cuts the value in half. This applies to default game assets, not just this modlet. -->
+	<set xpath="/blocks/block[@name='generatorbank']/property[@name='OutputPerStack']/@value">400</set> 
+
+	<!-- change the power output for solar cells from 30 to 150. -->
+	<set xpath="/blocks/block[@name='solarbank']/property[@name='OutputPerStack']/@value">150</set> 
+	<!-- change the max power output for the solar bank from 180 to 900. -->
+	<set xpath="/blocks/block[@name='solarbank']/property[@name='MaxPower']/@value">900</set>	  
+
+	<!-- change the power output for batteries to 50 to 100. -->
+	<set xpath="/blocks/block[@name='batterybank']/property[@name='OutputPerStack']/@value">100</set> 
+	<!-- change the max power output for the battery bank to from 400 to 800. -->
+	<set xpath="/blocks/block[@name='batterybank']/property[@name='MaxPower']/@value">800</set>	
+		
+<!-- #############***************************            ***************************############# -->
+	
+</bavaria>

@@ -1,0 +1,81 @@
+<configs>
+
+<!--Motorcycle Edits-->	
+	<!-- Original seat of motorcylce:
+		<property class="seat0">
+			<property name="position" value="0, 0, -.201"/>
+			<property name="rotation" value="0, 0, 0"/>
+			<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+		</property>-->
+	
+	<append xpath="/vehicles/vehicle[@name='vehicleMotorcycle']">
+		<property class="seat1">
+			<property name="position" value="0, .18, -.401"/>
+			<property name="rotation" value="0, 0, 0"/>
+			<property name="exit" value="-.9,0,-.401 ~ .9,0,-.401 ~ -.401,0,-1.5 ~ -.401,0,1.6 ~ 0,1.5,-.401"/>
+		</property>
+	</append>
+
+
+
+<!--Truck Edits-->
+	<!-- Truck original seating
+		<property class="seat0">
+			<property name="position" value="-.4, .36, .06"/>
+			<property name="rotation" value="-25, 0, 0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
+										    Left     Right      left-back    left-front   left-above
+		</property>
+
+		<property class="seat1">
+			<property name="position" value=".4, .36, .06"/>
+			<property name="rotation" value="-25, 0, 0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~   .4,0,2.6 ~     .4,2.1,0"/>
+										    Right    Left      Right-back    Right-front   Right-above
+		</property>-->
+
+	
+	<append xpath="/vehicles/vehicle[@name='vehicle4x4Truck']">
+		<property class="seat2"> <!--seat 3-->
+			<property name="position" value="0, .65, -.9"/>
+			<property name="rotation" value="-20, 0, 0"/>
+			<property name="exit" value="0,0,-2.8 ~ 0,0,2.6 ~ -1.6,0,-.401 ~ -1.6,0,.401 ~ 0,2.1,0"/>
+		</property>
+		
+		 
+		<property class="seat3"><!--seat 4-->
+			<property name="position" value="-.70, .60, -1.8"/>
+			<property name="rotation" value="-20, -90, 0"/>
+			<property name="exit" value="-1.3,0,-2.8 ~ -1.3,0,2.6 ~ -1.6,0,-.601 ~ 1.6,0,.601 ~ -1.3,2.1,0"/>
+		</property>
+
+		 
+		<property class="seat4"><!--seat 4-->
+			<property name="position" value=".70, .60, -1.8"/>
+			<property name="rotation" value="-20, 90, 0"/>
+			<property name="exit" value="1.3,0,-2.8 ~ 1.3,0,2.6 ~ 1.6,0,-.601 ~ -1.6,0,.601 ~ 1.3,2.1,0"/>
+		</property>
+	
+	</append>
+
+</configs>
+
+
+<!--Notes on position, rotation, and exits.
+
+		Seat Position Information:
+		1st pos, is Left-Right,
+		2nd pos, is Up-down, 
+		3rd pos, is front-back
+		
+		1st rot, 0/360 is straight up, 90 head is leaning forward, your are horizontal
+		2nd rot, looking forward is 0/360, 180 is looking backwards
+		3rd rot, 0/360 is leaning straight up and down, 90 you are horizontal with head on your left
+		(FOR ROTATIONS, using a negative (-) makes the spinning go counter clockwise)
+
+	Under "Exit" the "~" means "or". Coordinates given are optional exits in case exits are blocked.
+	
+	Exit of the gyrocopter gives "left ~ right ~ behind ~ infront ~ above" exit options
+	With the truck, similar but to each side.
+
+-->

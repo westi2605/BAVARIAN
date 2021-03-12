@@ -1,0 +1,29 @@
+<Config>
+
+<append xpath="/items">
+
+<item name="TFPRaftPlaceable">
+	<property name="Extends" value="vehicleMinibikePlaceable"/>
+	<property name="Tags" value="vehicle"/>
+	<property name="DescriptionKey" value="vehiclePlaceableGroupDesc"/>
+	<property name="HoldType" value="7"/>
+	<property name="CustomIcon" value="raft"/>
+	<property name="HoldingItemHidden" value="true"/>
+	<property name="Meshfile" value="#@modfolder:Resources/Raft.unity3d?Raft"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="EconomicValue" value="6000"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Stacknumber" value="1"/>
+	<property class="Action1">
+		<property name="Vehicle" value="TFPRaft"/>
+		<property name="VehicleSize" value="4, 6, 4"/>
+	</property>
+	<effect_group name="TFPRaftPlaceable" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="2"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="2000"/>
+	</effect_group>
+</item>
+</append>
+</Config>
+

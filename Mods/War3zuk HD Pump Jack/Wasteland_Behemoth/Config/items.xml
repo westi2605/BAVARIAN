@@ -1,0 +1,37 @@
+<configs>
+
+	<append xpath="/items">
+	
+		<!-- Full 100% credit to xyth and Spherell and community contributors of 'A19/A18 CreaturePacks - A community entity project' as this items code is fully (and sweat, blood, and tears) extracted -->
+	
+		<item name="meleeHandZombie002"> 
+			<property name="Extends" value="meleeHandZombie02"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="HoldType" value="12"/>
+		</item>
+	
+	<item name="meleeHandZombieBehemoth">
+			<property name="Extends" value="meleeHandMaster"/>
+			<property name="CreativeMode" value="None"/>
+			<property name="HoldType" value="12"/>
+			<property class="Action0">
+				<property name="DamageEntity" value="500"/>
+				<property name="DamageBlock" value="2000"/>
+				<property name="Range" value="4"/>
+				<property name="Sphere" value="3"/>
+				<property name="Block_range" value="5"/>
+			</property>
+			<effect_group name="meleeHandZombie002" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
+					buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
+					weights=".11,.07,.07,.05,.29,.36,.11"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="infectionCounter" operation="add" value="10"><!--InfectionRegular-->
+					<requirement name="CVarCompare" target="other" cvar="infectionCounter" operation="GT" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="abrasionZombieHit" operation="set" value="1800"/><!--AbrasionRegular-->
+			</effect_group>
+		</item>
+		
+ 	</append>
+	
+</configs>

@@ -1,0 +1,190 @@
+<configs>
+		<!-- Script Controlled Version Unlimited Floors -->
+		<append xpath="/blocks">
+			<block name="Elevator3x3ControlFloor">
+				<property name="Class" value="MultiLevelElevatorGround, Mods" />
+				<property name="DisplayType" value="blockMulti" />
+				<property name="Material" value="Mwood" />
+				<property name="Weight" value="1"/>
+				<property name="Shape" value="ModelEntity" />
+				<property name="RotationAllowed" value="pivotOnFloor" />
+				<property name="Model" value="#@modfolder:Resources/SDXBasicElevatorModels.unity3d?SDXElevator3x3Prefab" />
+				<property class="RepairItems">
+					<property name="forgedSteel" value="500" />
+				</property>
+				<drop event="Destroy" count="0" />
+				<property name="Group" value="Building" />
+				<property name="MultiBlockDim" value="3,1,3" />
+				<property name="DescriptionKey" value="ElevatorPlatformBaseDesc" />
+				<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
+				<property name="MaxDamage" value="2000" />
+				<!-- Elevator Settings -->
+				<property name="ElevatorUpSpeed" value="2.5" />
+				<property name="ElevatorDownSpeed" value="2" />
+				<property name="RequiresPower" value="true" />
+				<property name="GroundName" value="Control Floor" />
+				<property name="MaxFloorCount" value="0" /> <!-- Make sure this value is the same for both blocks -->
+				<!-- Elevator Transforms -->
+				<property name="TransformToMove" value="PlatformController"/>
+				<property name="PlatformBaseTransform" value="ElevatorPlatform"/>
+				<property name="MotorSoundTransform" value="MotorSound"/>
+				<!-- Button Settings -->
+				<property name="InsideButtonTransform" value="ElevatorPlatform" />
+				<property name="CallButtonTransform" value="CallButton" />
+			</block>
+			<block name="Elevator3x3Floor">
+				<property name="DisplayType" value="blockMulti" />
+				<property name="Class" value="MultiLevelElevatorFloor, Mods" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="RotationAllowed" value="pivotOnFloor" />
+				<property name="Model" value="#@modfolder:Resources/SDXBasicElevatorModels.unity3d?SDXElevator3x3LandingPrefab" />
+				<property name="Material" value="Mwood" />
+				<property name="Weight" value="1"/>
+				<property class="RepairItems">
+					<property name="forgedSteel" value="20" />
+				</property>
+				<drop event="Destroy" count="0" />
+				<property name="CraftingSkillGroup" value="Miscellaneous Crafting" />
+				<property name="DescriptionKey" value="ElevatorPlatformFloorDesc" />
+				<property name="MultiBlockDim" value="3,1,3" />
+				<property name="Group" value="Building" />
+				<property name="MaxDamage" value="2000" />
+				<!-- Elevator Settings -->
+				<property name="RequiresPower" value="false" />
+				<property name="MaxFloorCount" value="0" />
+			</block>
+			<block name="Elevator5x5ControlFloor">
+				<property name="Extends" value="Elevator3x3ControlFloor"/>
+				<property name="Model" value="#@modfolder:Resources/SDXBasicElevatorModels.unity3d?SDXElevator5x5Prefab" />
+				<property name="MultiBlockDim" value="5,3,5" />
+				<property name="ActivationDistance" value="8"/>
+				<!-- Elevator Settings -->
+				<property name="ElevatorUpSpeed" value="3.5" />
+				<property name="ElevatorDownSpeed" value="3.5" />
+				<property name="RequiresPower" value="true" />
+				<property name="GroundName" value="Control Floor" />
+				<property name="MaxFloorCount" value="0" />
+				<!-- Elevator Door Settings -->
+				<property name="Door1Transform" value="LeftDoor"/>
+				<property name="Door2Transform" value="RightDoor"/>
+				<property name="Door1OffSet" value="0, 0, 0.375" />
+				<property name="Door2OffSet" value="0, 0, -0.375" />
+				<property name="DoorSpeed" value="0.75" />
+				<!-- Button Settings -->
+				<property name="InsideButtonTransform" value="InsideButton" />
+				<property name="CallButtonTransform" value="CallButton" />
+			</block>
+			
+			<block name="Elevator5x5Floor">
+				<property name="Extends" value="Elevator3x3Floor"/>
+				<property name="CustomIcon" value="Elevator3x3Floor" />
+				<property name="Model" value="#@modfolder:Resources/SDXBasicElevatorModels.unity3d?SDXElevator5x5LandingPrefab" />
+				<property name="MultiBlockDim" value="5,3,5" />
+				<property name="ActivationDistance" value="8"/>
+				<!-- Elevator Settings -->
+				<property name="RequiresPower" value="false" />
+				<property name="MaxFloorCount" value="0" />
+			</block>
+			
+			
+			
+			<block name="ElevatorControlFloor">
+				<property name="Extends" value="Elevator3x3ControlFloor"/>
+				<property name="Model" value="#@modfolder:Resources/SDXElevatorA17.unity3d?FullElevatorControlFloorPrefab" />
+				<property name="MultiBlockDim" value="3,4,3" />
+				<property name="ModelOffset" value="0,0,0"/>
+				<!-- Elevator Settings -->
+				<property name="RequiresPower" value="true" />
+				<property name="GroundName" value="Control Floor" />
+				<property name="MaxFloorCount" value="0" />
+				<property name="ElevatorUpSpeed" value="4.3" />
+				<property name="ElevatorDownSpeed" value="2" />
+				<!-- Elevator Transforms -->
+				<property name="TransformToMove" value="PlatformController"/> <!-- This the object we move up and down, anything you want to move should be a child of this transform -->
+				<property name="PlatformBaseTransform" value="ElevatorPlatform"/> <!-- This is the object the player stands on, it should have a trigger collider on it about half a block higher than its normal collider -->
+				<property name="MotorSoundTransform" value="MotorSound"/>
+				<property name="BellSoundTransform" value="BellSound" />
+				<!-- Elevator Door Settings -->
+				<property name="Door1Transform" value="LeftDoor"/>
+				<property name="Door2Transform" value="RightDoor"/>
+				<property name="DoorSoundTransform" value="DoorSound" />
+				<!-- Shaft Door Transforms -->
+				<property name="ShaftDoor1Transform" value="ShaftDoorL" />
+				<property name="ShaftDoor1OffSet" value="-0.436, 0, 0" />
+				<property name="ShaftDoor2Transform" value="ShaftDoorR" />
+				<property name="ShaftDoor2OffSet" value="0.436, 0, 0" />
+				<!-- Elevator Door Transforms -->
+				<property name="Door1OffSet" value="-0.3725, 0, 0" />
+				<property name="Door2OffSet" value="0.3725, 0, 0" />
+				<property name="DoorSpeed" value="0.75" />
+				<!-- Button Transforms -->
+				<property name="InsideButtonTransform" value="InsideButton" />
+				<property name="CallButtonTransform" value="CallButton" />
+				<property name="ButtonClickSoundTransform" value="ButtonClick" />
+				<!-- Inside LED Panel Transforms -->
+				<property name="UpArrowTransformInside" value="ArrowUpInside" />
+				<property name="DownArrowTransformInside" value="ArrowDownInside" />
+				<!-- Outside LED Panel Transforms -->
+				<property name="UpArrowTransformOutside" value="ArrowUpOutside" />
+				<property name="DownArrowTransformOutside" value="ArrowDownOutside" />
+			</block>
+			<block name="ElevatorFloor">
+				<property name="Extends" value="Elevator3x3Floor"/>
+				<property name="Model" value="#@modfolder:Resources/SDXElevatorA17.unity3d?FullElevatorFloorPrefab" />
+				<property name="MultiBlockDim" value="3,4,3" />
+				<property name="ModelOffset" value="0,0,0"/>
+				<!-- Elevator Settings -->
+				<property name="RequiresPower" value="false" />
+				<property name="MaxFloorCount" value="0" />
+				<!-- Button Settings -->
+				<property name="CallButtonTransform" value="CallBtnPanelBottom" />
+				<property name="ButtonClickSoundTransform" value="ButtonClick" />
+				<!-- LED Panel Settings -->
+				<property name="UpArrowTransformOutside" value="ArrowUpOutside" />
+				<property name="DownArrowTransformOutside" value="ArrowDownOutside" />
+				<!-- Shaft Door Transforms -->
+				<property name="ShaftDoor1Transform" value="ShaftDoorL" />
+				<property name="ShaftDoor1OffSet" value="-0.436, 0, 0" />
+				<property name="ShaftDoor2Transform" value="ShaftDoorR" />
+				<property name="ShaftDoor2OffSet" value="0.436, 0, 0" />
+			</block>
+			
+			
+			<!-- 4x8 platform -->
+			<!-- Made for vehicles but vehicles arent working with it yet. Still works like all the other elevators. -->
+			<block name="Elevator4x8ControlFloor">
+				<property name="Extends" value="Elevator3x3ControlFloor"/>
+				<property name="Model" value="#@modfolder:Resources/SDX4x8Elevator.unity3d?ElevatorPlatform4x8ControlFloorPrefab" />
+				<property name="MultiBlockDim" value="8,3,4" />
+				<property name="ModelOffset" value="0,0,0"/>
+				<property name="ActivationDistance" value="12"/>
+				<!-- Elevator Settings -->
+				<property name="ElevatorUpSpeed" value="3.5" />
+				<property name="ElevatorDownSpeed" value="3.5" />
+				<property name="RequiresPower" value="true" />
+				<property name="GroundName" value="Control Floor" />
+				<property name="MaxFloorCount" value="0" />
+				<!-- Elevator Transforms -->
+				<property name="TransformToMove" value="MovingObjects"/>
+				<property name="PlatformBaseTransform" value="PlatformMesh"/>
+				<property name="MotorSoundTransform" value="MovingSound"/>
+				<!-- Button Settings -->
+				<property name="InsideButtonTransform" value="MovingObjects" />
+				<property name="CallButtonTransform" value="CallButton" />
+				<!-- This is for setting up custom models so you can see what the ray is hitting and set the right transform as the button targets. Its spammy as hell so leave it off unless you need it. -->
+				<property name="ShowRaycastHitName" value="false" />
+			</block>
+			
+			<block name="Elevator4x8Floor">
+				<property name="Extends" value="Elevator3x3Floor"/>
+				<property name="CustomIcon" value="Elevator3x3Floor" />
+				<property name="Model" value="#@modfolder:Resources/SDX4x8Elevator.unity3d?ElevatorPlatform4x8FloorPrefab" />
+				<property name="MultiBlockDim" value="8,3,4" />
+				<property name="ModelOffset" value="0,0,0"/>
+				<property name="ActivationDistance" value="12"/>
+				<!-- Elevator Settings -->
+				<property name="RequiresPower" value="false" />
+				<property name="MaxFloorCount" value="0" />
+			</block>
+		</append>
+</configs>

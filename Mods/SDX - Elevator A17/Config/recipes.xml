@@ -1,0 +1,70 @@
+<configs>
+	
+<append xpath="/recipes">
+	
+<recipe name="Elevator3x3ControlFloor" craft_area="workbench" count="1" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+
+<recipe name="Elevator3x3Floor" craft_area="workbench" count="1" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+
+<recipe name="Elevator5x5ControlFloor" craft_area="workbench" count="1" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+
+<recipe name="Elevator5x5Floor" craft_area="workbench" count="1" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+
+<recipe name="ElevatorControlFloor" craft_area="workbench" count="1" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+
+<recipe name="ElevatorFloor" craft_area="workbench" count="1" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+
+<recipe name="Elevator4x8ControlFloor" craft_area="workbench" count="1" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+
+<recipe name="Elevator4x8Floor" craft_area="workbench" count="1" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="6"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+
+</append>
+</configs>

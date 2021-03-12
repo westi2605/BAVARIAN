@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English,german
+
+HDPumpJackE,items,Block,KgNone,HD Pump Jack,Föderpumpe,
+
+HDPumpJackF,items,Block,KgNone,HD Pump Jack,gefüllte Föderpumpe,
+
+HDPJEDesc,Block,,,This Pump Jack Will Mine Resources Over Time & Deliver Them For Collection.\n\nLoot From Either The Front Or The Rear Of The Pump,Dieser Pumpe wird im Laufe der Zeit Ressourcen abbauen und zur Abholung bereitstellen.,

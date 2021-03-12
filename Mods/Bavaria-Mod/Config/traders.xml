@@ -1,0 +1,32 @@
+<bavaria>
+
+	<!-- Zeit wo Trader öffnen -->
+		<set xpath="/traders/trader_info[@id='1']/@open_time">03:05</set>
+		<set xpath="/traders/trader_info[@id='6']/@open_time">03:05</set>
+		<set xpath="/traders/trader_info[@id='2']/@open_time">03:05</set>
+		<set xpath="/traders/trader_info[@id='7']/@open_time">03:05</set>
+		<set xpath="/traders/trader_info[@id='8']/@open_time">03:05</set>
+
+	<!-- Zeit wo Trader schliessen -->
+		<set xpath="/traders/trader_info[@id='1']/@close_time">21:50</set>
+		<set xpath="/traders/trader_info[@id='6']/@close_time">21:50</set>
+		<set xpath="/traders/trader_info[@id='2']/@close_time">21:50</set>
+		<set xpath="/traders/trader_info[@id='7']/@close_time">21:50</set>
+		<set xpath="/traders/trader_info[@id='8']/@close_time">21:50</set>
+
+	<append xpath="//trader_item_group[@name='perkBooks']">
+		<item name="foodBoSchweinebratenSchematic" count="1"/>
+	</append>
+			
+	<append xpath="//trader_item_group[@name='tools']">
+		<item name="fusebox1" count="1"/>
+		<item name="fusebox2" count="1"/>
+	</append>
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsElectrical']">
+		<item name="solarbankSchematic"/>
+		<item name="solarCellSchematic"/>
+		<item name="smallEngineSchematic"/>
+	</append>
+		
+</bavaria>

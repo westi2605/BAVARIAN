@@ -1,0 +1,19 @@
+<configs>
+		<append xpath="/entity_classes">	
+      <entity_class name="TFPRaft">
+        <property name="Tags" value="vehicle"/>
+        <property name="Class" value="EntityVJeep"/>
+        <property name="Parent" value="Cars"/>
+        <property name="Prefab" value="#@modfolder:Resources/Raft.unity3d?Raft"/>
+        <property name="ModelType" value="Standard"/>
+        <property name="SurfaceCategory" value="metal"/>
+        <property name="IgnoreTrigger" value="true"/>
+        <property name="LootListAlive" value="79"/>
+        <property name="IsEnemyEntity" value="false"/>
+        <property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+        <property name="MapIcon" value="ui_game_symbol_4x4"/>
+      </entity_class>
+	  
+		</append>
+</configs>

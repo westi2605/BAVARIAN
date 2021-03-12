@@ -1,0 +1,139 @@
+<bavaria>
+
+	<append xpath="/recipes">
+
+	<!--dietriche herstellen -->	
+		<recipe name="resourceLockPick" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>		
+			<ingredient name="meleeToolAllSteelParts" count="1"/>
+		</recipe>
+	
+	<!--schraubenfedern herstellen -->	
+		<recipe name="resourceSpring" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="40"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>		
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="meleeToolAllSteelParts" count="1"/>
+		</recipe>	
+
+	<!--Stahlwerkzeugteile -->
+		<recipe name="meleeToolAllSteelParts" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>		
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="3"/>
+		</recipe>	
+
+	<!--Motorwerkzeugteile -->
+		<recipe name="meleeToolAxeT3ChainsawParts" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>		
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="3"/>
+		</recipe>
+
+	<!--Pistolenteile -->
+		<recipe name="gunHandgunT1PistolParts" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>		
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="3"/>
+		</recipe>	
+
+	<!--MaschinenPistolenteile -->
+		<recipe name="gunMGT1AK47Parts" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>		
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="3"/>
+		</recipe>
+
+	<!--Schrotflintenteile -->
+		<recipe name="gunShotgunT1DoubleBarrelParts" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>		
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="3"/>
+		</recipe>
+
+	<!--Bogenteile -->
+		<recipe name="gunBowT1WoodenBowParts" count="1" craft_area="workbench">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="20"/>		
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="3"/>
+		</recipe>
+
+
+	<!--Nähset herstellen -->
+		<recipe name="resourceSewingKit" count="1" craft_area="workbench">
+		  <ingredient name="resourceCloth" count="20"/>
+		  <ingredient name="resourceWood" count="1"/>
+		</recipe>
+
+	<!-- Stacheldraht herstellen -->
+		<recipe name="barbedWireSheet" count="1" craft_area="workbench">
+		  <ingredient name="resourceScrapIron" count="20"/>
+		</recipe>
+
+	<!-- eiserner Stamm -->
+		<recipe name="scrapIronLogSpike4" count="1"> <!-- trap -->
+			<ingredient name="resourceScrapIron" count="40"/>
+		</recipe>
+
+	<!-- hölzerner Stamm -->
+		<recipe name="woodLogSpike1" count="1"> <!-- trap -->
+			<ingredient name="resourceWood" count="15"/>
+		</recipe>
+
+	<!-- elektroinstallation wireless -->
+		<recipe name="fusebox1" count="1" craft_area="workbench">
+		  <ingredient name="resourceElectricParts" count="3"/>
+		  <ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+
+		<recipe name="fusebox2" count="1" craft_area="workbench">
+		  <ingredient name="resourceElectricParts" count="3"/>
+		  <ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+
+	<!-- herstellen von Solarzellen und Solarbänke -->
+		<recipe name="solarCell" count="1" craft_area="workbench" craft_time="216" tags="learnable,perkAdvancedEngineering,solarCellSchematic">
+			<ingredient name="resourceElectricParts" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="40"/>
+			<ingredient name="resourceForgedSteel" count="3"/>
+		</recipe>
+
+		<recipe name="solarbank" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering,solarbankSchematic">
+			<ingredient name="resourceElectricParts" count="50"/>
+			<ingredient name="resourceForgedSteel" count="24"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>
+
+		<recipe name="smallEngine" count="1" craft_area="workbench" craft_time="252" tags="learnable,perkGreaseMonkey,smallEngineSchematic">
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+			<ingredient name="resourceOil" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+		</recipe>
+
+<!--- FOOD -->
+	<!-- schweinebraten -->
+		<recipe name="foodBoSchweinebraten" count="1" time="1800" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+			<ingredient name="foodRawMeat" count="5"/>
+			<ingredient name="foodCanBeef" count="1"/>
+			<ingredient name="foodCropMushrooms" count="1"/>
+			<ingredient name="resourceAnimalFat" count="3"/>
+			<ingredient name="drinkJarBoiledWater" count="1"/>
+		</recipe>
+
+	</append>
+	
+</bavaria>

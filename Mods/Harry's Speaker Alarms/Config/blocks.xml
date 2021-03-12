@@ -1,0 +1,438 @@
+<Harrys_Speaker_Alarms>
+	<remove xpath="/blocks/block[@name='speaker']"></remove>
+<append xpath="/blocks">
+
+<block name="speaker1">
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="CanPickup" value="true" param1="speaker"/>
+	<property name="PlaySound" value="alarm1"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker1">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm1"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker2">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm2"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker3">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm3"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker4">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm4"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker5">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm5"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker6">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm6"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker7">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm7"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker8">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm8"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker9">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm9"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker10">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harryalarm10"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker11">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harrysong1"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker12">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harrysong2"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="Harryspeaker13">
+	<property name="Extends" value="speaker1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="Class" value="Speaker"/>
+	<property name="PlaySound" value="harrysong3"/>
+	<property name="Material" value="Mmetal_weak"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Electrical/loudspeakerPrefab"/> <property name="HandleFace" value="South"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="LootList" value="7"/>
+	<property name="RequiredPower" value="5"/>
+	<property name="DisplayType" value="blockElectrical"/>
+	<property name="Group" value="Science"/>
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="3"/>
+		<property name="resourceElectricParts" value="2"/>
+	</property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="72"/>
+	<property name="FilterTags" value="fdecor,felectrical"/>
+	<property name="SortOrder1" value="70a0"/>
+</block>
+
+<block name="speaker">
+	<property name="Extends" value="speaker1"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering,speakerSchematic"/>
+	<property name="CustomIcon" value="speaker"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="speaker1,Harryspeaker1,Harryspeaker2,Harryspeaker3,Harryspeaker4,Harryspeaker5,Harryspeaker6,Harryspeaker7,Harryspeaker8,Harryspeaker9,Harryspeaker10,Harryspeaker11,Harryspeaker12,Harryspeaker13"/>
+</block>
+
+
+</append>
+</Harrys_Speaker_Alarms>

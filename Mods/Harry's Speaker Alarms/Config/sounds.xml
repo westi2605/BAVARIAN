@@ -1,0 +1,76 @@
+<Harrys_Speaker_Alarms>
+<append xpath="/Sounds">
+
+
+
+<SoundDataNode name="harryalarm1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm1" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm2"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm2" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm3"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm3" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm4"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm4" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm5"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm5" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm6"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm6" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm7"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm7" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm8"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm8" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm9"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm9" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harryalarm10"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harryalarm10" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+
+
+<SoundDataNode name="harrysong1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harrysong1" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harrysong2"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harrysong2" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+<SoundDataNode name="harrysong3"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+	<AudioClip ClipName="#@modfolder:Resources/HarrysSpeakerAlarms.unity3d?harrysong3" Loop="true"/>
+	<LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="0.5"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+</SoundDataNode>
+
+
+
+</append>
+</Harrys_Speaker_Alarms>
